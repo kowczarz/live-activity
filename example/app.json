@@ -24,6 +24,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "@bacons/apple-targets",
+        {
+          "appleTeamId": "Z9A649Q6W9"
+        }
+      ]
+    ]
   }
 }
