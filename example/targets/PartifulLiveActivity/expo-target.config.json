@@ -1,0 +1,5 @@
+{
+  "type": "widget",
+  "frameworks": ["SwiftUI", "ActivityKit"],
+  "deploymentTarget": "17.0"
+}
