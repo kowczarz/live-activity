@@ -1,11 +1,12 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, View } from 'react-native';
 
-import * as TestSample from 'test-sample';
+import * as LiveActivity from 'test-sample';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>{TestSample.hello()}</Text>
+      <Button title="start activity" onPress={() => LiveActivity.createActivity()} />
+      <Button title="end" onPress={() => LiveActivity.endAllActivities()} />
     </View>
   );
 }
